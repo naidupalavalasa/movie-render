@@ -9,7 +9,7 @@ function App() {
 
   const submitHandler=(e)=>{
       e.preventDefault();
-      fetch(`http://www.omdbapi.com/?s=${search}&apikey=263d22d8`).then(
+      fetch(`https://www.omdbapi.com/?s=${search}&apikey=263d22d8`).then(
         response => response.json()
       ).then(value => setData(value.Search));
   }
