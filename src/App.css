@@ -1,0 +1,53 @@
+::-webkit-scrollbar{
+  display: none;
+}
+
+body{
+  background-color: black;
+}
+
+h1{
+  color : white;
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+.card-img{
+  background-image: cover;
+}
+
+.card{
+   box-shadow: 0px 0px 6px 1px;
+}
+
+.card :hover{
+  box-shadow: 0px 0px 6px 4px;
+}
+
+input[type=text]
+{
+  border:none;
+  height: 2.7rem;
+  border-bottom : 1px solid;
+  text-align: center;
+  width: 50%;
+}
+
+input[type=submit]
+{
+  margin : 2rem;
+  width : 6.6rem;
+  background : transparent;
+  border: 1px solid dodgerblue;
+  height: 3rem;
+  font-weight: bold;
+  border-radius: 6px;
+  transition: .3s;
+  color:dodgerblue;
+}
+
+input[type=submit]:hover
+{
+    box-shadow: 0px 0px 6px 1px;
+    transition : .3s;
+}
